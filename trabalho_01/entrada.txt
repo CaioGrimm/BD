@@ -1,0 +1,80 @@
+Id:   15
+ASIN: 1559362022
+  title: Wake Up and Smell the Coffee
+  group: Book
+  salesrank: 518927
+  similar: 5  1559360968  1559361247  1559360828  1559361018  0743214552
+  categories: 2
+   |Books[283155]|Subjects[1000]|Literature & Fiction[17]|Drama[2159]|United States[2160]
+   |Books[283155]|Subjects[1000]|Arts & Photography[1]|Performing Arts[521000]|Theater[2154]     
+reviews: total: 8  downloaded: 8  avg rating: 4
+    2002-5-13  cutomer: A2IGOA66Y6O8TQ  rating: 5  votes:   3  helpful:   2
+    2002-6-17  cutomer: A2OIN4AUH84KNE  rating: 5  votes:   2  helpful:   1
+    2003-1-2   cutomer: A2HN382JNT1CIU  rating: 1  votes:   6  helpful:   1
+    2003-6-27  cutomer: A39QMV9ZKRJXO5  rating: 4  votes:   1  helpful:   1
+    2004-2-17  cutomer:  AUUVMSTQ1TXDI  rating: 1  votes:   2  helpful:   0
+    2004-10-13 cutomer:  A5XYF0Z3UH4HB  rating: 5  votes:   1  helpful:   1
+
+Id:   22
+ASIN: 1892213013
+  title: Dragon Ball Z: Volume 1
+  group: DVD
+  salesrank: 251
+  similar: 3  1892213242  1569319299  1569319337
+  categories: 2
+   |DVD[130] |Movies & TV[1] |Anime & Manga[2653]
+   |DVD[130] |Movies & TV[1] |Action & Adventure[262537]
+reviews: total: 12  downloaded: 12  avg rating: 4.5
+    2003-2-17  customer: A1A98KZ7V3UQPR  rating: 5  votes: 4  helpful: 3
+    2003-4-28  customer: A2CZ01X31IMJ0F  rating: 4  votes: 5  helpful: 2
+    2003-7-19  customer: A1BSYHN4RXAZVQ  rating: 3  votes: 2  helpful: 1
+    2004-1-9   customer: A3SLFQ4XZ5UGRD  rating: 5  votes: 1  helpful: 1
+    2004-3-22  customer: A1HYW5SUXJSGC5  rating: 5  votes: 3  helpful: 2
+
+Id:   35
+ASIN: 0743412456
+  title: Lord of the Rings: The Fellowship of the Ring
+  group: Book
+  salesrank: 134
+  similar: 4  0743400052  0553581543  0345316040  0618129022
+  categories: 2
+   |Books[283155] |Subjects[1000] |Science Fiction & Fantasy[25] |Fantasy[1038730]
+   |Books[283155] |Subjects[1000] |Literature & Fiction[17]
+reviews: total: 20  downloaded: 20  avg rating: 4.8
+    2002-1-23  customer: A3VBEOB83AEJX1  rating: 5  votes: 6  helpful: 5
+    2002-2-14  customer: A1DH5KZ4GJGOHM  rating: 4  votes: 2  helpful: 1
+    2003-3-10  customer: A34PB6PLJLHJ3N  rating: 5  votes: 4  helpful: 3
+    2003-8-15  customer: A19UHS6QMZCO6P  rating: 5  votes: 5  helpful: 4
+    2004-5-20  customer: A2XJ0LT9ZOPMC3  rating: 5  votes: 3  helpful: 3
+
+Id:   57
+ASIN: B00005JNT0
+  title: The Matrix (Widescreen Edition)
+  group: DVD
+  salesrank: 18
+  similar: 3  B00005JKJH  B00007KXBA  B0002JY6SK
+  categories: 2
+   |DVD[130] |Movies & TV[1] |Action & Adventure[262537]
+   |DVD[130] |Movies & TV[1] |Sci-Fi & Fantasy[262538]
+reviews: total: 25  downloaded: 25  avg rating: 4.7
+    2002-7-19  customer: A5KI7HHJXO9D4  rating: 5  votes: 10  helpful: 9
+    2002-9-21  customer: A6KHS6H9W2T39  rating: 4  votes: 3  helpful: 2
+    2003-12-5  customer: A3MPZT1DO2A7ZN  rating: 5  votes: 8  helpful: 7
+    2004-3-29  customer: A6JNJKAS08LD7  rating: 5  votes: 6  helpful: 5
+    2004-6-10  customer: A1JLJTZPZTNVVE  rating: 4  votes: 5  helpful: 4
+
+Id:   61
+ASIN: B00004S9AI
+  title: Harry Potter and the Sorcerer's Stone
+  group: DVD
+  salesrank: 35
+  similar: 2  B000063W6T  B00006HAXW
+  categories: 2
+   |DVD[130] |Movies & TV[1] |Family[262539]
+   |DVD[130] |Movies & TV[1] |Action & Adventure[262537]
+reviews: total: 15  downloaded: 15  avg rating: 4.9
+    2002-12-17  customer: A6XHQ6VJ7KS7Y  rating: 5  votes: 9  helpful: 8
+    2003-2-22   customer: A1IMXIXNLNBY8B  rating: 5  votes: 7  helpful: 6
+    2003-4-14   customer: A7BHSJ29ZMKMZ  rating: 4  votes: 2  helpful: 1
+    2003-7-26   customer: A9IMQJ7J67X6K  rating: 5  votes: 10 helpful: 9
+    2004-10-19  customer: AB7LJKZS9DCTP  rating: 4  votes: 3  helpful: 2
