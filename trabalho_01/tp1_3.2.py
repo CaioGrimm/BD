@@ -6,7 +6,7 @@ def connect_to_db():
     try:
         conn = psycopg2.connect(
             dbname="tp1_db",  # Substitua pelo nome do seu banco de dados
-            user="handler",  # Substitua pelo seu usuário
+            user="dev",  # Substitua pelo seu usuário
             password="123",  # Substitua pela sua senha
             host="localhost",  # Host, normalmente localhost
             port="5432"  # Porta do PostgreSQL, geralmente 5432
@@ -75,7 +75,7 @@ def create_schema(conn):
 
 # Função para extrair os dados do arquivo de entrada
 def extract_data_from_file(file_path):
-    with open(file_path, 'r') as file:
+    with open(file_path, 'r', encoding="UTF-8") as file:
         data = file.read()
 
     # Encontrar os blocos de cada produto
