@@ -57,28 +57,43 @@ int main() {
     // Nome do arquivo binário
     std::string binaryFilename = "articles.dat";
 
+    // Nome do arquivo de saída de texto
+    std::string outputFilename = "articles_output.txt";
+
     // Carrega a tabela hash do arquivo binário
     std::unordered_map<int, Article> articleHashTable = loadHashTableFromBinary(binaryFilename);
+
+    // Abre o arquivo de saída
+    std::ofstream outputFile(outputFilename);
+    if (!outputFile.is_open()) {
+        std::cerr << "Erro ao criar o arquivo de saída.\n";
+        return 1;
+    }
 
     // Contador de artigos exibidos
     int count = 0;
 
-    // Exibe os artigos carregados
+    // Exibe os artigos carregados no arquivo de saída
     for (const auto &pair : articleHashTable) {
         const Article &article = pair.second;
-        std::cout << "ID: " << article.id << "\n";
-        std::cout << "Title: " << article.title << "\n";
-        std::cout << "Year: " << article.year << "\n";
-        std::cout << "Authors: " << article.authors << "\n";
-        std::cout << "Citations: " << article.citations << "\n";
-        std::cout << "Last Update: " << article.last_update << "\n";
-        std::cout << "Snippet: " << article.snippet << "\n";
-        std::cout << "-----------------------------\n";
+        outputFile << "ID: " << article.id << "\n";
+        outputFile << "Title: " << article.title << "\n";
+        outputFile << "Year: " << article.year << "\n";
+        outputFile << "Authors: " << article.authors << "\n";
+        outputFile << "Citations: " << article.citations << "\n";
+        outputFile << "Last Update: " << article.last_update << "\n";
+        outputFile << "Snippet: " << article.snippet << "\n";
+        outputFile << "-----------------------------\n";
         count++;
     }
 
-    // Exibe o total de artigos mostrados
-    std::cout << "Total de artigos exibidos: " << count << "\n";
+    // Exibe o total de artigos mostrados no final do arquivo de saída
+    outputFile << "Total de artigos exibidos: " << count << "\n";
+
+    // Fecha o arquivo de saída
+    outputFile.close();
+
+    std::cout << "Artigos salvos com sucesso em " << outputFilename << "\n";
 
     return 0;
 }

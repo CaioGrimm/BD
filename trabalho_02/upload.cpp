@@ -112,12 +112,18 @@ void saveHashTableToBinary(const std::unordered_map<int, Article> &hashTable, co
     }
 
     file.close();
-    std::cout << "Tabela hash salva em arquivo binário com sucesso.\n";
+    std::cout << "Tabela hash salva em arquivo binario com sucesso.\n";
 }
 
-int main() {
+int main(int argc, char *argv[]) {
+
+    if (argc < 2) {
+        std::cerr << "Uso: " << argv[0] << " <arquivo.csv>" << std::endl;
+        return 1;
+    }
+
     // Lê os artigos do arquivo CSV
-    std::string csvFilename = "artigo.csv";
+    std::string csvFilename = argv[1];
     std::vector<Article> articles = readCSV(csvFilename);
 
     // Criação da tabela hash
